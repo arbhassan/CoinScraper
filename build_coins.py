@@ -2,7 +2,8 @@ from autoscraper import AutoScraper
 
 url = 'https://finance.yahoo.com/quote/BTC-USD'
 
-wanted_list = ['32,680.82']
+
+wanted_list = ['46,623.67']
 
 scraper = AutoScraper()
 scraper.build(url, wanted_list)

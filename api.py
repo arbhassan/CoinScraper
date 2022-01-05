@@ -12,6 +12,7 @@ def get_coins(coin):
     result = scraper.get_result_exact(url)
     return result
 
+
 @app.route('/', methods=['GET'])
 def search_api():
     query = request.args.get('coin')
